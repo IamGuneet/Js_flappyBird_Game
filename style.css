@@ -1,0 +1,39 @@
+* , *::after, *::before {
+box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.title{
+z-index:10px;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+inset: 0;
+}
+
+.subtitle{
+margin-top: .5rem;
+
+}
+
+.hide{
+    display: none;
+}
+.bird{
+    --bird-top: -1000;
+    --bird-size: 60px;
+    position: absolute;
+    width: var(--bird-size);
+    height: var(--bird-size);
+    border-radius: 50%;
+    top: calc(var(--bird-top)* 1px);
+    left: var(--bird-size);
+    
+    background-color: rgba(131, 131, 9, 0.73);
+}
