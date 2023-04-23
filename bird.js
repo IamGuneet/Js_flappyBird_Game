@@ -1,7 +1,7 @@
 const BIRD_SPEED = 0.5 
 const birdElement = document.querySelector('[data-bird]');
 let timeSinceLastJump = Number.POSITIVE_INFINITY
-const JUMP_DURATION = 125
+const JUMP_DURATION = 150
 
 export function updateBird(delta){
     if(timeSinceLastJump < JUMP_DURATION){

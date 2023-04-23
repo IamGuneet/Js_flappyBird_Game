@@ -9,8 +9,8 @@ body{
 }
 
 .title{
-z-index:10px;
-position: absolute;
+    z-index:20px;
+    position: fixed;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -40,10 +40,6 @@ margin-top: .5rem;
 }
 
 .pipe{
-    --pipe-width: 120;
-    --pipe-left: 120;
-    --hole-top:200;
-    --hole-height:180;
     position: absolute;
     top: 0;
     bottom: 0;
